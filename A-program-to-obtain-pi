@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+main()
+{
+  float a = 1;
+  float i = 0;
+  float pi = 0;
+  int repeat = 0;
+  while(repeat = 1)    {
+    i=i+1/a;
+    a=a+2;
+    i=i+(0-1/a);
+    a=a+2;
+    pi=4*i;
+    printf("pi : %f\n",pi);   
+  }
+}
